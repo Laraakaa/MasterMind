@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class GameLoop {
 
     Scanner scanner = new Scanner(System.in);
+    SpielBrett brett = new SpielBrett();
 
     // Game state
     int round = 0;

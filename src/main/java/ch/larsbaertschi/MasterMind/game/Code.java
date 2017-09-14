@@ -5,7 +5,7 @@ import java.util.Random;
 
 public class Code {
 
-    MastermindColor[] colors = new MastermindColor[6];
+    MastermindColor[] colors = new MastermindColor[4];
 
     public static Code generateRandom() {
         Random rdm = new Random();

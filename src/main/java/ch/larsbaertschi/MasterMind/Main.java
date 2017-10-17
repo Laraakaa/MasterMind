@@ -4,7 +4,8 @@ import ch.larsbaertschi.MasterMind.game.GameLoop;
 
 public class Main {
 
-    static GameLoop gameLoop = new GameLoop();
+    private static GameLoop gameLoop = new GameLoop();
+    public static boolean debug = true;
 
     public static void main(String[] args) {
         System.out.println("Starting MasterMind by Lars Bärtschi");

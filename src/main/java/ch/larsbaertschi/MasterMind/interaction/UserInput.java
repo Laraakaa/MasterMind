@@ -8,8 +8,7 @@ public class UserInput {
 
     public MastermindColor[] colors = new MastermindColor[4];
 
-    public UserInput() {
-
+    private UserInput() {
     }
 
     public static UserInput parse(String input) throws ParseException {

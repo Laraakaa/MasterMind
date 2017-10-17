@@ -1,12 +1,16 @@
 package ch.larsbaertschi.MasterMind.game;
 
-public class SpielBrett {
+import ch.larsbaertschi.MasterMind.Main;
+
+class SpielBrett {
 
     Code codeSecret;
 
-    public SpielBrett() {
+    SpielBrett() {
         codeSecret = Code.generateRandom();
-        System.out.println(codeSecret);
+        if (Main.debug) {
+            System.out.println(codeSecret);
+        }
     }
 
 }
